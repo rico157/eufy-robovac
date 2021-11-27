@@ -217,7 +217,7 @@ export class RoboVac {
     }
 
     async pause() {
-        await this.setPlayPause(true);
+        await this.setPlayPause(false);
     }
 
     async getWorkMode(force: boolean = false): Promise<WorkMode> {
